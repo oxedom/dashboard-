@@ -136,9 +136,52 @@ table {
     --secound-color: #7A86B6;
     --third-color: #A8A4CE;
     --fourth-color: #C8B6E2;
+    --palette-five: #e6e4e9;
 }
 
 
 body {
-    background-color: var(--main-color)
+    background-color: var(--fourth-color)
 }
+
+.body-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 2fr);
+}
+
+
+
+.header {
+    background-color: var(--palette-five);
+    grid-column: 2 / -1;
+
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.user {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottem-nav {
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    background-color: aqua;
+    grid-column: 1 / 1;
+    grid-row: 1 / -1;
+}
+
+.menu {}
