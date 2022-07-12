@@ -1,6 +1,7 @@
 <html lang="en">
 
 <head>
+    <link rel="shortcut icon" href="/imgs/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,12 +13,13 @@
     <header class="header">
 
         <div class="top-nav">
-            <button>SVG SVG</button>
+            <img class="svg" src="./imgs/svgs/magnify.svg">
             <!-- search bar  -->
             <input type="text">
-            <button>SVG SVG</button>
+
             <div class="user">
-                <img src="" alt="" width="50" height="50">
+                <img class="svg" src="./imgs/svgs/bell.svg" alt="">
+                <img src="https://www.w3schools.com/howto/img_avatar.png" alt="avatar">
                 <a href="">Oxedom</a>
             </div>
 
@@ -25,7 +27,7 @@
 
         <div class="bottem-nav">
             <div class="user">
-                <img src="https://i.imgur.com/VVq6KcT.png" alt="Avatar" width="100" height="100">
+                <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar">
                 <div>
                     <p>Hi there,</p>
                     <p> Gvina Eater (@oxedom)</p>
@@ -33,7 +35,7 @@
 
             </div>
 
-            <div>
+            <div class="btns">
                 <button> New</button>
                 <button> Upload</button>
                 <button> Share</button>
@@ -66,18 +68,42 @@
     </nav>
     <!-- Main will have content -->
     <main class="main">
-        <h3> Your Projects</h3>
-        <h3> Annocuments</h3>
+
+
 
         <section class="cards">
+            <h3> Your Projects</h3>
+
             <div class="card">
                 <h5> My super project</h5>
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium magni odit incidunt error
                     dicta, quia aspernatur molestias necessitatibus quod, itaque tempori</p>
-                <div>
+                <div class="card-btns">
                     <button>LIKE</button>
                     <button>DELETE</button>
                     <button>SHARE</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h5> My super project</h5>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium magni odit incidunt error
+                    dicta, quia aspernatur molestias necessitatibus quod, itaque tempori</p>
+                <div class="card-btns">
+                    <button>LIKE</button>
+                    <button>DELETE</button>
+                    <button>SHARE</button>
+                </div>
+
+                <div class="card">
+                    <h5> My super project</h5>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium magni odit incidunt error
+                        dicta, quia aspernatur molestias necessitatibus quod, itaque tempori</p>
+                    <div class="card-btns">
+                        <button>LIKE</button>
+                        <button>DELETE</button>
+                        <button>SHARE</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -85,6 +111,7 @@
     </main>
     <!-- annocuments -->
     <section class="annocuments">
+        <h3> Annocuments</h3>
         <div>
             <h5>Site Update</h5>
             <p> Lorem ipsum dolor sit amet consecque sed ips</p>
