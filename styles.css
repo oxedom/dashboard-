@@ -75,8 +75,8 @@ body {
     display: grid;
     grid-column-start: 2;
     grid-column-end: 4;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, minmax(150px, 1fr));
 }
 
 .header {
