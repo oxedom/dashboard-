@@ -1,2 +1,3 @@
 # dashboard-
-CSS Grid Dashboard Project. 
+My first holy grail using CSS grid (and a bit of flexbox).
+
