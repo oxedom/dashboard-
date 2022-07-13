@@ -72,13 +72,11 @@ body {
 }
 
 .main {
-    background-color: rgb(88, 119, 85);
+    background-color: rgb(88, 119, 84);
     display: grid;
     grid-column-start: 2;
     grid-column-end: 5;
     grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
-
-
 }
 
 .search {
